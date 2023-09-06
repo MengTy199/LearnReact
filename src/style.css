@@ -1,0 +1,13 @@
+div > .i{
+        width: 110px;
+        display: block;
+        overflow: hidden;
+    
+}
+div> h1{
+    color: red;
+    padding: 20px;
+}
+
+div{
+}

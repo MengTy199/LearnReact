@@ -1,34 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './style.css'
+import './components/Greeting/index'
+import './components/Greeting/index.css'
+import './components/TestProps/index'
+import './components/TestProps/index2'
+import './components/TestProps/index3'
 
+// import Greeting ,{Greeting1} from './components/Greeting/index'
+// import TestProps from './components/TestProps/index'
+// import TestProps2 from './components/TestProps/index2'
+import TestProps3 from './components/TestProps/index3'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+     {/* <Greeting/>
+     <Greeting1/> */}
+     {/* <TestProps hDescription={'Hello world'}/>
+     <TestProps hDescription={'Hello Guys'}/> */}
+     {/* <TestProps2/> */}
+     <TestProps3 title={"Article 1"}>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolorum quo aut doloremque laudantium officia quos! Debitis perspiciatis fugit enim facere accusantium fugiat praesentium? Inventore qui eos blanditiis saepe ullam?</p>
+     </TestProps3>
+     <TestProps3 title={"Article 2"}>
+      <p>quos! Debitis perspiciatis fugit enim facere accusantium fugiat praesentium? Inventore qui eos blanditiis saepe ullam?</p>
+     </TestProps3>
+     <TestProps3 title={"Article 3"}>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, tenetur!</p>
+     </TestProps3>
+    </div>
   )
 }
 
