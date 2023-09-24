@@ -28,7 +28,7 @@ export function Greeting1(){
         <h1>Hello Guys</h1>
         <ul>
             <li>
-                <p>ID:{myObject.id} </p>
+                <p>D:{myObject.id} </p>
             </li>
             <li>
                 <p>ID:{myObject.name} </p>
