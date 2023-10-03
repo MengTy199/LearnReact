@@ -5,22 +5,24 @@ import './components/TestProps/index3'
 import './components/TestProps/index4'
 import './components/Conditional_Rendering/index'
 import './components/RederingLists/index'
-import Item from './components/Conditional_Rendering/index'
+import ObjectState from './components/state/object'
+// import Item from './components/Conditional_Rendering/index'
 // import People from './components/RederingLists/index'
 // import Student from './components/RederingLists/Student'
 // import FilterStudent from './components/RederingLists/FilterStudent'
-import Keeping from './components/RederingLists/Keeping'
-import Article from './components/Article'
-import Images from './components/Article/index2'
-import Button from './components/state'
-import Count from './components/state/index2'
-import Work from './components/state/index3'
-import InputText from './components/state/index4'
-import Send from './components/state/index5'
-import ActionClick, { UploadButton } from './components/Resposnding'
-import PlayButton from './components/Resposnding'
-import Toolbar from './components/Resposnding/index3'
-import ToolbarP from './components/Propagation/index2'
+// import Keeping from './components/RederingLists/Keeping'
+// import Article from './components/Article'
+// import Images from './components/Article/index2'
+// import Button from './components/state'
+// import Count from './components/state/index2'
+// import Work from './components/state/index3'
+// import InputText from './components/state/index4'
+// import Send from './components/state/index5'
+// import ActionClick, { UploadButton } from './components/Resposnding'
+// import PlayButton from './components/Resposnding'
+// import Toolbar from './components/Resposnding/index3'
+// import ToolbarP from './components/Propagation/index2'
+// import ObjectState from './components/state/object'
 // import Greeting ,{Greeting1} from './components/Greeting/index'
 // import TestProps from './components/TestProps/index'
 // import TestProps2 from './components/TestProps/index2'
@@ -91,7 +93,10 @@ function App() {
 
       {/* <Toolbar onPlayMovie={() => alert('Playing!')} onUpaodImage={() => alert('Uplaoding!')} /> */}
         
-      <ToolbarP></ToolbarP>
+      {/* <ToolbarP></ToolbarP> */}
+
+
+      <ObjectState/>
     </div>
   )
 }
